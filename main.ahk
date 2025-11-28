@@ -46,7 +46,6 @@ CycleExe(exe, group) {
 #m::WinActivate("ahk_exe OUTLOOK.EXE")
 #o::WinActivate("ahk_exe Logseq.exe")
 #F2::WinActivate("ahk_exe Logseq.exe")
-#d::WinActivate("ahk_exe dbeaver.exe")
 #z::CycleExe("code.exe", "code")
 
 #Include wezTerm.ahk
