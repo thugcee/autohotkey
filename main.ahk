@@ -33,7 +33,7 @@ CycleExe(exe, group) {
 }
 
 
-#c::Run("C:\Program Files (x86)\CopyQ\copyq.exe", "toggle")
+#c::Run('"C:\Program Files (x86)\CopyQ\copyq.exe" toggle')
 #PgDn::WinMoveBottom("A")
 #w::CycleExe("firefox.exe", "firefox")
 #a::CycleExe("idea64.exe", "idea")
