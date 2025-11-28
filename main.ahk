@@ -37,6 +37,7 @@ CycleExe(exe, group) {
 #PgDn::WinMoveBottom("A")
 #w::CycleExe("firefox.exe", "firefox")
 #a::CycleExe("idea64.exe", "idea")
+GroupAdd("idea", "ahk_exe jetbrains_client64.exe")
 #x::CycleExe("ms-teams.exe", "teams")
 #t::CycleExe("ms-teams.exe", "teams")
 #s::CycleExe("chrome.exe", "chrome")
